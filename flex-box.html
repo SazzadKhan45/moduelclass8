@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-box Porperty</title>
+    <style>
+        .container{
+            border: 3px dotted hotpink;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 300px;
+            align-items:center;
+
+        }
+        .box{
+            display:flexbox;
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 3px solid grey;
+            text-align: center;
+            text-decoration: dotted;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- .container>.box{box-$}*3 -->
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+
     
 </body>
 </html>
